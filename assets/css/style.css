@@ -1,0 +1,47 @@
+.header, .main, footer{
+    padding-left: 240px;
+}
+@media (max-width: 900px){
+    .side-nav{
+        display: none;
+    }
+    .header, .main, .footer{
+        padding-left: 0px;
+    }
+}
+
+.top-pad{
+    margin-top: 10%;
+}
+.side-nav>li:hover{
+    background-color: indigo;
+}
+.bottom-pad{
+    margin-bottom: 10%;
+}
+.offset-1{
+    margin-left:5%;
+}
+
+/* Panel */
+.card-panel{
+    min-height: 450px;
+    margin: 0;
+}
+.highcharts-root{
+    font-family: "Roboto" !important;
+}
+.highcharts-button-symbol{
+    display:none;
+}
+.highcharts-title{
+    font-size:1.5rem !important;
+}
+/*  */
+.collection-pad{
+    padding-left:2%;
+    padding-right:2%;
+}
+.collection-pad p{
+    font-size: 0.8em;
+}
